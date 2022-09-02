@@ -15,5 +15,5 @@ def test_bucketing_by_number_of_cycles():
   print(counts)
   print("Done counting :)")
 
-if __name__ == '_main_':
+if __name__ == '__main__':
   test_bucketing_by_number_of_cycles()
