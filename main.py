@@ -1,5 +1,5 @@
 def count_batteries_by_usage(cycles):
-  dict = {"lowCount": 0,"mediumCount": 0,"highCount": 0}
+  dict = {"lowCount": 0,"mediumCount": 0,"highCount": 0}      #using the dictionary datastructure and naming it as dict
   for cyc in cycles:
       if cyc < 400:
           dict['lowCount'] += 1
